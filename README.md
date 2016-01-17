@@ -22,7 +22,8 @@ You will have 2 files. First ``final-iran-ip-${NOW}``, this is all IPs with diff
 
 ## Support
 
-We glad to hear problems and your advised. Please feel free to contact us with `Github issue tracker <https://github.com/payam124/iran-ip/issues>`_
+We glad to hear problems and your advised. Please feel free to contact us with [Github issue tracker]
 
+[Github issue tracker]: https://github.com/payam124/iran-ip/issues
 
 Special thanks to Payam Poursaeid
