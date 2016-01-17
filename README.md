@@ -1,4 +1,4 @@
-# Iran IP Address Database - CSV - 99% accurate (دیتایس آی پی های ایران)
+# Iran IP Address Database Script - CSV - 99% accurate (دیتایس آی پی های ایران)
 
 _Licensed under the GNU V3 license: http://www.gnu.org/licenses/gpl-3.0.txt_
 
