@@ -17,7 +17,6 @@ SUMIPFILE="$FOLDER/final-summarized-iran-ip-$NOW"
 
 
 ## Delete old IP sources and Iran AS numbers if exist
-rm -Rf $ASFILE
 rm -Rf $FOLDER/oix-full-snapshot-latest.dat
 rm -Rf $FOLDER/oix-full-snapshot-latest.dat.bz2
 
