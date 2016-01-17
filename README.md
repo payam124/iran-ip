@@ -8,7 +8,7 @@ _Licensed under the GNU V3 license: http://www.gnu.org/licenses/gpl-3.0.txt_
 - Python 2.6+
 - Python lib netaddr
 
-## How to install requrements
+## How to install requirements
 
 - Python: http://www.cyberciti.biz/faq/install-python-linux/
 - Python netaddr: https://pythonhosted.org/netaddr/installation.html
