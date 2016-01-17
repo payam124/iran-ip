@@ -6,7 +6,7 @@ _Licensed under the GNU V3 license: http://www.gnu.org/licenses/gpl-3.0.txt_
 ## Requirements
 
 - Bash
-- Python
+- Python 2.6+
 - Python lib netaddr
 
 ## How to install requrements
@@ -16,8 +16,15 @@ _Licensed under the GNU V3 license: http://www.gnu.org/licenses/gpl-3.0.txt_
 
 ## How to use
 
-- ./getip.sh
+.. code-block:: bash
 
-You will have 2 files. First final-iran-ip-${NOW}, this is all IPs with different netmask. Second file will be final-summarized-iran-ip-${NOW}, this is summarized IPs.
+  $ bash getip.sh
 
-- Special thanks to Payam Poursaeid
+You will have 2 files. First ``final-iran-ip-${NOW}``, this is all IPs with different netmask. Second file will be ``final-summarized-iran-ip-${NOW}``, this is summarized IPs.
+
+## Support
+
+We glad to hear problems and your advised. Please feel free to contact us with `Github issue tracker <https://github.com/payam124/iran-ip/issues>`_
+
+
+Special thanks to Payam Poursaeid
