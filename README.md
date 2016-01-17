@@ -18,7 +18,7 @@ _Licensed under the GNU V3 license: http://www.gnu.org/licenses/gpl-3.0.txt_
 
 .. code-block:: bash
 
-  $ bash getip.sh
+    $ bash getip.sh
 
 You will have 2 files. First ``final-iran-ip-${NOW}``, this is all IPs with different netmask. Second file will be ``final-summarized-iran-ip-${NOW}``, this is summarized IPs.
 
