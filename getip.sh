@@ -30,8 +30,8 @@ curl  --user-agent "Mozilla/4.0" http://bgp.he.net/country/IR 2>&1 | grep AS[1-9
 while read line; 
 do 
 	echo " $line i" >> $ASFILE_I
-	echo " $line i" >> $ASFILE_E
-	echo " $line i" >> $ASFILE_U
+	echo " $line e" >> $ASFILE_E
+	echo " $line \?" >> $ASFILE_U
 done
 
 ## Download latest BGP routes
