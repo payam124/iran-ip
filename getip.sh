@@ -26,7 +26,7 @@ rm -Rf $FOLDER/oix-full-snapshot-latest.dat
 rm -Rf $FOLDER/oix-full-snapshot-latest.dat.bz2
 
 ## Download latest Iran AS numbers based on bgp.he
-curl  --user-agent "Mozilla/4.0" http://bgp.he.net/country/IR 2>&1 | grep AS[1-9] | cut -d/ -f2 | awk -F\" '{print $1}'  | tr -d 'AS' | 
+curl -L --user-agent "Mozilla/4.0" http://bgp.he.net/country/IR 2>&1 | grep AS[1-9] | cut -d/ -f2 | awk -F\" '{print $1}'  | tr -d 'AS' | 
 while read line; 
 do 
 	echo " $line i" >> $ASFILE_I
